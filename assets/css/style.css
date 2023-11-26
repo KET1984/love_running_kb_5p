@@ -93,12 +93,18 @@ main {
 #reasons {
     width: 90%;
     margin: 20px auto;
+    position: relative;
 }
 
 #reasons > h2 {
     font-size: 280%;
+    text-align: center;
 }
 
+#reasons hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 #benefits {
     margin-top: 20px;
 }
