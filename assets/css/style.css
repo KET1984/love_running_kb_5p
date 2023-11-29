@@ -90,7 +90,10 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -193,6 +196,29 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* Signup page */
+#signup {
+    background: url('../images/signup-image.webp') no-repeat 75%/cover;
+    flex-grow: 1;
+    padding: 20px 10px 0 10px;
+}
+
+#signup-form {
+    color: #FFFFFF;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.radio_buttons {
+    width: 100%;
+    flex-direction: row;
 }
 
 /* Footer */
